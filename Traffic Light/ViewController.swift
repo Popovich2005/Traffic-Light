@@ -8,12 +8,36 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var redView: UIView!
+    @IBOutlet var yellowView: UIView!
+    @IBOutlet var greenView: UIView!
+    
+    @IBOutlet var greetingButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        redView.layer.cornerRadius = 60
+        yellowView.layer.cornerRadius = 60
+        greenView.layer.cornerRadius = 60
+                
+        greetingButton.layer.cornerRadius = 10
     }
-
-
+    
+    @IBAction func greetingButtonDidTapped() {
+        
+        greetingButton.setTitle("Next", for: .normal)
+        
+        if redView.alpha == 0.30000001192092896 && yellowView.alpha == 0.30000001192092896 {
+            redView.alpha = 1
+            greenView.alpha = 0.3
+        } else if redView.alpha == 1 {
+            redView.alpha = 0.3
+            yellowView.alpha = 1
+        } else {
+            yellowView.alpha = 0.3
+            greenView.alpha = 1
+        }
+    }
 }
-
