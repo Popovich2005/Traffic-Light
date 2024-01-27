@@ -28,15 +28,15 @@
                                     <action selector="greetingButtonDidTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="xij-DL-36q"/>
                                 </connections>
                             </button>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6C-ff-sLB">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N6C-ff-sLB">
                                 <rect key="frame" x="136" y="99" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fp-Ns-gdS">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5fp-Ns-gdS">
                                 <rect key="frame" x="136" y="227" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-4G-g4U">
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-4G-g4U">
                                 <rect key="frame" x="136" y="355" width="120" height="120"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>

@@ -29,15 +29,16 @@ class ViewController: UIViewController {
         
         greetingButton.setTitle("Next", for: .normal)
         
-        if redView.alpha == 0.30000001192092896 && yellowView.alpha == 0.30000001192092896 {
+        if redView.alpha == 0.5 && yellowView.alpha == 0.5 {
             redView.alpha = 1
-            greenView.alpha = 0.3
+            greenView.alpha = 0.5
         } else if redView.alpha == 1 {
-            redView.alpha = 0.3
+            redView.alpha = 0.5
             yellowView.alpha = 1
         } else {
-            yellowView.alpha = 0.3
+            yellowView.alpha = 0.5
             greenView.alpha = 1
         }
     }
 }
+

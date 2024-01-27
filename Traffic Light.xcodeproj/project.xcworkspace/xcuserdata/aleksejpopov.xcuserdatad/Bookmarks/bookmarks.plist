@@ -12,13 +12,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>30</string>
+					<string>44</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>29</string>
+					<string>44</string>
 					<key>Timestamp</key>
-					<string>728033753.559925</string>
+					<string>728035510.497285</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -34,17 +34,13 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>        greetingButton.setTitle("Next", for: .normal)
-</string>
+				<string></string>
 				<key>leading</key>
-				<string>    @IBAction func greetingButtonDidTapped() {
-        
+				<string>}
+
 </string>
 				<key>trailing</key>
-				<string>        
-        if redView.alpha == 0.30000001192092896 &amp;&amp; yellowView.alpha == 0.30000001192092896 {
-            redView.alpha = 1
-</string>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>bookmark</string>
@@ -76,13 +72,13 @@
 					<key>EndingColumnNumber</key>
 					<string>0</string>
 					<key>EndingLineNumber</key>
-					<string>30</string>
+					<string>44</string>
 					<key>StartingColumnNumber</key>
 					<string>0</string>
 					<key>StartingLineNumber</key>
-					<string>29</string>
+					<string>44</string>
 					<key>Timestamp</key>
-					<string>728033753.559893</string>
+					<string>728035510.4972579</string>
 				</dict>
 				<key>rebasable-url</key>
 				<dict>
@@ -98,17 +94,13 @@
 			<key>text-context</key>
 			<dict>
 				<key>focused</key>
-				<string>        greetingButton.setTitle("Next", for: .normal)
-</string>
+				<string></string>
 				<key>leading</key>
-				<string>    @IBAction func greetingButtonDidTapped() {
-        
+				<string>}
+
 </string>
 				<key>trailing</key>
-				<string>        
-        if redView.alpha == 0.30000001192092896 &amp;&amp; yellowView.alpha == 0.30000001192092896 {
-            redView.alpha = 1
-</string>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>bookmark</string>
